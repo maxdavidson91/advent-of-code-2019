@@ -8,7 +8,7 @@ def fuel_calc(mass):
 
 
 def part_one(numbers):
-    fuel = sum([fuel_calc(line) for line in numbers])
+    fuel = sum(fuel_calc(line) for line in numbers)
     return fuel
 
 
